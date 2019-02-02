@@ -1,0 +1,17 @@
+{
+    "name": "Server gateway Timeout",
+    "version": "1.0",
+    "description": "It is an Front End Developer tool which alert when server send timeout errors",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*/*"
+    ],
+    "manifest_version": 2
+}
